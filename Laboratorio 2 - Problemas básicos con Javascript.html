@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lab 2</title>
+</head>
+<body>
+
+    <p>
+        ¿Qué es Javascript y en qué se asemeja a Java?<br/>
+
+        R=  No tienen similitud, son totalmente diferentes. <br/>
+            1. JavaScript es un lenguaje interpretado, y Java es compilado. <br/><br/>
+            2. Java se depura en dos fases y JavaScript en una: En Java primero verifica posibles errores de sintaxis durante la compilación y posteriormente<br/>
+            realiza la ejecución donde pueden surgir problemas de lógica.  En Cambio JavaScript, solo se puede saber los errores en el momento de la ejecución,<br/>
+            a no ser que se usen herramientas especializadas como Visual Studio que interpretan el código en segundo plano.<br/><br/>
+            3. Java es un lenguaje orientado a objetos puro, pero JavaScript está basado en prototipos.<br/><br/>
+            4. Java es fuertemente tipado, y JavaScript es débilmente tipado: Las variables en Java solo puede ser de un tipo determinado y una vez definidas, estas no se pueden cambiar.<br/>
+            Por otro lado, en JavaScript las variables pueden cambiar de tipo de dato en cualquier momento, almacenado primero un texto, luego un número, luego una fecha, etc.<br/><br/>
+            5. JavaScript es estándar, Java no.<br/><br/>
+
+            6. JavaScript:<br/>  NO es lo mismo que Java.   <br/> 
+                            NO es un subconjunto de Java.<br/>
+                            NO es una versión de Java para programar páginas web.<br/>
+                            NO comparte prácticamente nada con Java.<br/>
+                            NO es más fácil que Java.<br/>
+                            NO es solo un lenguaje para páginas web.<br/><br/>
+
+            7. Si sabes programar en Java NO sabes programar en JavaScript. Y viceversa.<br/>
+
+    </p>
+
+    <script>
+
+        console.log("punto 2");
+        var num1 = 10;
+        var num2 = 5;
+        console.log("Las variables son: " + num1 + " y " + num2 )
+        console.log("Suma: " + (num1+num2));
+        console.log("Resta: " + (num1-num2));
+        console.log("Multiplicación: " + (num1*num2));
+        console.log("División: " + (num1/num2));
+
+        console.log(" ");
+        console.log("punto 3");
+        let var1 = "Hola ";
+        let var2 = "Mundo ";
+        console.log(var1 + var2);
+
+        console.log(" ");
+        console.log("punto 4");
+        const dato1 = 55;
+        const dato2 = true;
+        console.log("Tipo del dato1: " + typeof dato1);
+        console.log("Tipo del dato2: " + typeof dato2);
+
+
+        console.log(" ");
+        console.log("punto 5");
+        var objetoLleno = {
+            entero: 50,
+            string: 'cadena',
+            booleano: true,
+            objetoVacio: new Object()
+        };
+        console.log(objetoLleno);
+        
+
+    </script>
+</body>
+</html>
